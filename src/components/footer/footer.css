@@ -33,7 +33,7 @@
     font-size: 1.125rem;
     padding: 0.4rem;
     border-radius: 0.5rem;
-    display: inline;
+    display: inline-flex;
 }
 .footer_social-link:hover{
     background-color: var(--title-color-dark);

@@ -4,7 +4,10 @@
     top: 0;
     left: 0;
     z-index:  var(--z-fixed);
-    background-color: var(--body-color);
+    background-color:rgb(39, 39, 39);
+
+
+    
 }
 
 .nav{
@@ -17,7 +20,7 @@
 
 .nav_logo,
 .nav_toggle {
-    color: var(--title-color);
+    color: white;
     font-weight: var(--font-medium);
 }
 
@@ -31,7 +34,7 @@
     flex-direction: column;
     align-items: center;
     font-size: var(--small-font-size);
-    color: var(--title-color);
+    color: white;
     font-weight: var(--font-medium);
     transition: .3s;
 }
@@ -45,7 +48,12 @@ display: none;
 /* Active link*/
 .active-link,
 .nav_link:hover{
-    color: var(--title-color-dark);
+    color:white;
+  
+}
+/* change background hedaer */
+.scroll-header{
+    box-shadow: 0 -1px 4px rgba(0, 0, 0  , 0.15);
 }
 
 /*================== BREAKPOINTS ==============*/
@@ -65,7 +73,7 @@ display: none;
     bottom: -100%;
     left: 0;
     width: 100%;
-    background-color: var(--body-color);
+    background-color: black;
     padding: 2rem 1.5rem 4rem;
     box-shadow: 0 -1px 4px rgba(0, 0, 0  , 0.15);
     border-radius: 1.5rem 1.5rem 0 0;

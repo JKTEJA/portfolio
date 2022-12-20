@@ -9,7 +9,7 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm('service_z8pa3xj', 'template_byb4uxl', form.current, 'Awcknq0ikhMBXh49V')
-   
+   e.target.reset()
   };
 
   return (
@@ -27,7 +27,7 @@ const Contact = () => {
         <div className='contact_card'>
             <i className="bx bxl-mail-send contact_card-icon"></i>
             <h3 className="contact_card-title">Email</h3>
-            <span className='contact_card-data'>user@gmail.com</span>
+            <span className='contact_card-data'>jakkateja94@gmail.com</span>
 
             <a href='mailto:examplemail@gmail.com.com
              ' className='contact_button'>Write me
@@ -36,7 +36,7 @@ const Contact = () => {
         <div className='contact_card'>
             <i className="bx bxl-whatsapp contact_card-icon"></i>
             <h3 className="contact_card-title">Whatsapp</h3>
-            <span className='contact_card-data'>999-888-777</span>
+            <span className='contact_card-data'>+91 9490955048</span>
 
             <a href='https://api.whatsapp.com/send?phone=6221440878' className='contact_button'>Write me
              <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
@@ -44,7 +44,7 @@ const Contact = () => {
         <div className='contact_card'>
             <i className="bx bxl-messenger contact_card-icon"></i>
             <h3 className="contact_card-title">Messenger</h3>
-            <span className='contact_card-data'>user.fb123
+            <span className='contact_card-data'>Charan_Teja
 </span>
 
             <a href='https://m.me/cryptica' className='contact_button'>Write me
